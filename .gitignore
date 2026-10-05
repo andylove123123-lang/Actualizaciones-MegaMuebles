@@ -1,0 +1,28 @@
+# Entornos Virtuales
+venv/
+venv32/
+env/
+ENV/
+.venv/
+
+# Variables de entorno (¡MUY IMPORTANTE PARA QUE NO TE ROBEN TU BASE DE DATOS!)
+.env
+
+# Archivos de compilación y empaquetado de Python
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.spec
+*.manifest
+
+# Entornos y Editores
+.vscode/
+.vs/
+*.swp
+
+# Archivos de instaladores generados
+Tickets/
+*.exe
+*.lnk
